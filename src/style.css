@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #D0B49F;
 }
 
 #logo img {
@@ -59,7 +59,7 @@ body {
 
 @media screen and (max-width: 500px) {
     #navbar::before {
-        width: 125vw; 
+        width: 130vw; 
     }
 }
 @media screen and (max-width: 400px) {
@@ -77,3 +77,81 @@ body {
         width: 380vw; 
     }
 }
+
+.footer{
+    background-color:rgb(43, 42, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoFooter{
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    gap: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-wrap: nowrap;
+}
+
+.lost-item,.found-item{
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(242, 101, 34);
+    min-width: 120px;
+}
+
+.lost,.found{
+    font-size: 30px;
+    color:white;
+    display: inline;
+    border-bottom: 3px solid rgb(242, 101, 34);
+    margin-bottom: 20px;
+}
+
+.box ul{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.box li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.last-line{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 490px) {
+    .logo{
+        font-size: 35px;
+    }
+    .lost,.found{
+        font-size: 25px;
+    }
+  }
+@media screen and (max-width:900px){
+    .box{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
