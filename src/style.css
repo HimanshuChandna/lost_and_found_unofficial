@@ -78,6 +78,14 @@ body {
     }
 }
 
+.hero-container{
+
+    width:100%;
+    height:60vh;
+    background-image: url(./);
+
+}
+
 .footer{
     background-color:rgb(43, 42, 41);
     display: flex;
